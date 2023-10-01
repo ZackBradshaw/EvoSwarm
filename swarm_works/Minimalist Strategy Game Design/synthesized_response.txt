@@ -1,0 +1,15 @@
+"EcoConquest" is a unique, engaging, and minimalist strategy game that combines elements of territory control, resource management, and strategic decision-making. The game is turn-based, where players compete to conquer territories in a dynamic ecosystem on a grid-based map. The objective is to dominate the ecosystem while maintaining a balanced environment.
+
+Each territory on the map has a resource value indicating its ecological importance. This value determines the territory's ability to generate units and support the ecosystem. Players can recruit different types of units, such as workers for resource gathering, soldiers for territory conquest, and scientists for technology research.
+
+Resource management is a crucial aspect of the game. Each turn, territories generate resources based on their value. Players can allocate these resources to recruit units, develop territories, or invest in ecosystem management. Maintaining a balanced ecosystem is essential, as it affects resource generation and unit effectiveness. Players manage the population of plants, herbivores, and carnivores to optimize these factors.
+
+Players can conquer enemy territories by deploying soldiers and engaging in turn-based battles. The outcome of battles depends on unit strength, abilities, and terrain advantages. Conquered territories provide additional resources and strategic advantages.
+
+Investing resources in technology research provides strategic benefits. Technologies unlock new units, enhance resource generation, and improve unit abilities. The game ends when one player conquers all territories or when the ecosystem becomes unbalanced. The final score depends on the number of territories conquered and the duration of ecosystem balance.
+
+The game features a minimalist art style, with simple shapes and colors representing territories and units. The focus is on clarity and readability. Sound effects, including background music, action cues, and ambient nature sounds, enhance the gameplay experience.
+
+The game's code structure follows best practices for readability and maintainability. It is organized into modular functions and classes. The game loop handles input, updates the game state, and redraws the screen. Game logic is encapsulated in separate functions and classes for easy understanding and debugging.
+
+In conclusion, EcoConquest is a minimalist yet engaging strategy game that combines territory control, resource management, and strategic decision-making. Its concise code structure, minimalist graphics, and strategic gameplay mechanics make it an ideal choice for a developer aiming to build a full game within 300 lines of code.

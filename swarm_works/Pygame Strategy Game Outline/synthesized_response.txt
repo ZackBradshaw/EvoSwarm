@@ -1,0 +1,11 @@
+The proposed strategy game, "PyConquest", combines elements from territory conquest and tower defense genres, offering a unique and engaging gameplay experience. The game is single-player, with the opponent being AI-controlled, and operates in turns.
+
+The game board is a grid, with each cell representing a territory or a battlefield. Territories can be owned by the player, AI, or neutral. The player aims to capture all territories or defend their base from waves of enemy units by strategically placing defensive towers along the enemy's path.
+
+The core mechanics of the game include grid representation, game loop, player move, AI move, battle function, win condition, and user interface. The grid can be represented as a 2D list, where each cell contains a value indicating the owner and the number of units. The main game loop prompts the player for a move, updates the game state, lets the AI make a move, and updates the game state again. The loop continues until one player controls all territories or the player's base is destroyed by enemy units.
+
+The player move function takes input for the source and target territories and validates the move. It then updates the game state accordingly. The AI move function uses a simple algorithm to decide its move. It analyzes the current state of the game and makes strategic decisions to capture or reinforce territories. The battle function compares the number of units in the source and target territories and updates the territories accordingly. It also checks for a win condition.
+
+The game can be displayed using a simple text-based interface or with Pygame, with the grid displayed as a 2D list of colored rectangles. The player can input their moves using the command line or interact with the game using mouse controls, selecting towers from a menu and clicking on empty cells to place them.
+
+By focusing on the core mechanics and keeping the code concise, it is possible to implement PyConquest within 300 lines of code. The game will provide an engaging strategy experience where players must make strategic decisions to outmaneuver the AI and conquer all territories or survive as many waves as possible.
